@@ -1,0 +1,388 @@
+{
+	"bowlGames": ["Rose Bowl", "Peach Bowl", "Sugar Bowl", "Cotton Bowl", "Orange Bowl", "Fiesta Bowl", "Gator Bowl", "Citrus Bowl", "Belk Bowl", "Alamo Bowl"],
+	"conferences": [{
+		"confName": "SEC",
+		"confFullName": "Southeastern",
+		"confTeams": [{
+			"name": "Alabama",
+			"abbreviation": "ALA",
+			"prestige": "95",
+			"state": "Alabama",
+			"rival": "TEN"
+		}, {
+			"name": "Georgia",
+			"abbreviation": "GEO",
+			"prestige": "90",
+			"state": "Georgia",
+			"rival": "GT"
+		}, {
+			"name": "Florida",
+			"abbreviation": "FLA",
+			"prestige": "85",
+			"state": "Florida",
+			"rival": "FSU"
+		}, {
+			"name": "Tennessee",
+			"abbreviation": "TEN",
+			"prestige": "80",
+			"state": "Tennessee",
+			"rival": "ALA"
+		}, {
+			"name": "Georgia Tech",
+			"abbreviation": "GT",
+			"prestige": "80",
+			"state": "Georgia",
+			"rival": "GEO"
+		}, {
+			"name": "Louisiana St",
+			"abbreviation": "LSU",
+			"prestige": "80",
+			"state": "Louisiana",
+			"rival": "MISS"
+		}, {
+			"name": "Arkansas",
+			"abbreviation": "ARK",
+			"prestige": "70",
+			"state": "Arkansas",
+			"rival": "KTY"
+		}, {
+			"name": "Ole Miss",
+			"abbreviation": "MISS",
+			"prestige": "75",
+			"state": "Mississippi",
+			"rival": "LSU"
+		}, {
+			"name": "Florida St",
+			"abbreviation": "FSU",
+			"prestige": "90",
+			"state": "Florida",
+			"rival": "FLA"
+		}, {
+			"name": "Kentucky",
+			"abbreviation": "KTY",
+			"prestige": "50",
+			"state": "Kentucky",
+			"rival": "ARK"
+		}]
+	}, {
+		"confName": "B1G",
+		"confFullName": "Big Ten",
+		"confTeams": [{
+			"name": "Ohio State",
+			"abbreviation": "OHI",
+			"prestige": "90",
+			"state": "Ohio",
+			"rival": "MIC"
+		}, {
+			"name": "Michigan",
+			"abbreviation": "MIC",
+			"prestige": "90",
+			"state": "Michigan",
+			"rival": "OHI"
+		}, {
+			"name": "Michigan St",
+			"abbreviation": "MSU",
+			"prestige": "80",
+			"state": "Michigan",
+			"rival": "IOWA"
+		}, {
+			"name": "Wisconsin",
+			"abbreviation": "WIS",
+			"prestige": "80",
+			"state": "Wisconsin",
+			"rival": "MIN"
+		}, {
+			"name": "Minnesota",
+			"abbreviation": "MIN",
+			"prestige": "70",
+			"state": "Minnesota",
+			"rival": "WIS"
+		}, {
+			"name": "Illinois",
+			"abbreviation": "ILL",
+			"prestige": "50",
+			"state": "Illinois",
+			"rival": "IND"
+		}, {
+			"name": "Iowa",
+			"abbreviation": "IOWA",
+			"prestige": "75",
+			"state": "Iowa",
+			"rival": "MSU"
+		}, {
+			"name": "Indiana",
+			"abbreviation": "IND",
+			"prestige": "55",
+			"state": "Indiana",
+			"rival": "ILL"
+		}, {
+			"name": "Penn State",
+			"abbreviation": "PSU",
+			"prestige": "80",
+			"state": "Pennsylvania",
+			"rival": "NEB"
+		}, {
+			"name": "Nebraska",
+			"abbreviation": "NEB",
+			"prestige": "85",
+			"state": "Nebraska",
+			"rival": "PSU"
+		}]
+	}, {
+		"confName": "BST",
+		"confFullName": "Big East",
+		"confTeams": [{
+			"name": "Army",
+			"abbreviation": "ARMY",
+			"prestige": "65",
+			"state": "New York",
+			"rival": "NAVY"
+		}, {
+			"name": "Virginia Tech",
+			"abbreviation": "VT",
+			"prestige": "85",
+			"state": "Virginia",
+			"rival": "UVA"
+		}, {
+			"name": "Navy",
+			"abbreviation": "NAVY",
+			"prestige": "75",
+			"state": "Maryland",
+			"rival": "ARMY"
+		}, {
+			"name": "Virginia",
+			"abbreviation": "UVA",
+			"prestige": "60",
+			"state": "Virginia",
+			"rival": "VT"
+		}, {
+			"name": "Maryland",
+			"abbreviation": "MAR",
+			"prestige": "60",
+			"state": "Maryland",
+			"rival": "RUTG"
+		}, {
+			"name": "Rutgers",
+			"abbreviation": "RUTG",
+			"prestige": "50",
+			"state": "New Jersey",
+			"rival": "MAR"
+		}, {
+			"name": "Boston College",
+			"abbreviation": "BC",
+			"prestige": "65",
+			"state": "Massachusetts",
+			"rival": "ND"
+		}, {
+			"name": "Pittsburgh",
+			"abbreviation": "PIT",
+			"prestige": "60",
+			"state": "Pennsylvania",
+			"rival": "SYRA"
+		}, {
+			"name": "Syracuse",
+			"abbreviation": "SYRA",
+			"prestige": "60",
+			"state": "New York",
+			"rival": "PIT"
+		}, {
+			"name": "Notre Dame",
+			"abbreviation": "ND",
+			"prestige": "85",
+			"state": "Indiana",
+			"rival": "BC"
+		}]
+	}, {
+		"confName": "B12",
+		"confFullName": "Big 12",
+		"confTeams": [{
+			"name": "Oklahoma",
+			"abbreviation": "OKL",
+			"prestige": "90",
+			"state": "Oklahoma",
+			"rival": "TEX"
+		}, {
+			"name": "Texas",
+			"abbreviation": "TEX",
+			"prestige": "90",
+			"state": "Texas",
+			"rival": "OKL"
+		}, {
+			"name": "Houston",
+			"abbreviation": "HOU",
+			"prestige": "75",
+			"state": "Texas",
+			"rival": "WVU"
+		}, {
+			"name": "TCU",
+			"abbreviation": "TCU",
+			"prestige": "80",
+			"state": "Texas",
+			"rival": "BAY"
+		}, {
+			"name": "Baylor",
+			"abbreviation": "BAY",
+			"prestige": "65",
+			"state": "Texas",
+			"rival": "TCU"
+		}, {
+			"name": "Oklahoma St",
+			"abbreviation": "OKS",
+			"prestige": "75",
+			"state": "Oklahoma",
+			"rival": "CIN"
+		}, {
+			"name": "Kansas St",
+			"abbreviation": "KSU",
+			"prestige": "75",
+			"state": "Kansas",
+			"rival": "KU"
+		}, {
+			"name": "West Virginia",
+			"abbreviation": "WVU",
+			"prestige": "70",
+			"state": "West Virginia",
+			"rival": "HOU"
+		}, {
+			"name": "Kansas",
+			"abbreviation": "KU",
+			"prestige": "50",
+			"state": "Kansas",
+			"rival": "KSU"
+		}, {
+			"name": "Cincinnati",
+			"abbreviation": "CIN",
+			"prestige": "65",
+			"state": "Ohio",
+			"rival": "OKS"
+		}]
+	}, {
+		"confName": "PAC12",
+		"confFullName": "Pac 12",
+		"confTeams": [{
+			"name": "California",
+			"abbreviation": "CAL",
+			"prestige": "65",
+			"state": "California",
+			"rival": "STAN"
+		}, {
+			"name": "Oregon",
+			"abbreviation": "ORE",
+			"prestige": "80",
+			"state": "Oregon",
+			"rival": "WAS"
+		}, {
+			"name": "UCLA",
+			"abbreviation": "UCLA",
+			"prestige": "75",
+			"state": "California",
+			"rival": "USC"
+		}, {
+			"name": "Southern Cal",
+			"abbreviation": "USC",
+			"prestige": "85",
+			"state": "California",
+			"rival": "UCLA"
+		}, {
+			"name": "Washington",
+			"abbreviation": "WAS",
+			"prestige": "90",
+			"state": "Washington",
+			"rival": "ORE"
+		}, {
+			"name": "Hawaii",
+			"abbreviation": "HAW",
+			"prestige": "60",
+			"state": "Hawaii",
+			"rival": "SAM"
+		}, {
+			"name": "Stanford",
+			"abbreviation": "STAN",
+			"prestige": "85",
+			"state": "California",
+			"rival": "CAL"
+		}, {
+			"name": "Oregon St",
+			"abbreviation": "ORST",
+			"prestige": "60",
+			"state": "Oregon",
+			"rival": "SDSU"
+		}, {
+			"name": "San Diego St",
+			"abbreviation": "SDSU",
+			"prestige": "60",
+			"state": "California",
+			"rival": "ORST"
+		}, {
+			"name": "American Samoa",
+			"abbreviation": "SAM",
+			"prestige": "95",
+			"state": "American Samoa",
+			"rival": "HAW"
+		}]
+	}, {
+		"confName": "MWC",
+		"confFullName": "Mountain West",
+		"confTeams": [{
+			"name": "Colorado",
+			"abbreviation": "COL",
+			"prestige": "80",
+			"state": "Colorado",
+			"rival": "CSU"
+		}, {
+			"name": "New Mexico",
+			"abbreviation": "UNM",
+			"prestige": "55",
+			"state": "New Mexico",
+			"rival": "NMSU"
+		}, {
+			"name": "Utah",
+			"abbreviation": "UTAH",
+			"prestige": "75",
+			"state": "Utah",
+			"rival": "BYU"
+		}, {
+			"name": "Colorado St",
+			"abbreviation": "CSU",
+			"prestige": "75",
+			"state": "Colorado",
+			"rival": "COL"
+		}, {
+			"name": "New Mexico St",
+			"abbreviation": "NMSU",
+			"prestige": "50",
+			"state": "New Mexico",
+			"rival": "UNM"
+		}, {
+			"name": "Brigham Young",
+			"abbreviation": "BYU",
+			"prestige": "75",
+			"state": "Utah",
+			"rival": "UTAH"
+		}, {
+			"name": "Wyoming",
+			"abbreviation": "WYO",
+			"prestige": "60",
+			"state": "Wyoming",
+			"rival": "USU"
+		}, {
+			"name": "Utah St",
+			"abbreviation": "USU",
+			"prestige": "55",
+			"state": "Utah",
+			"rival": "WYO"
+		}, {
+			"name": "Arizona",
+			"abbreviation": "ARIZ",
+			"prestige": "70",
+			"state": "Arizona",
+			"rival": "ASU"
+		}, {
+			"name": "Arizona St",
+			"abbreviation": "ASU",
+			"prestige": "75",
+			"state": "Arizona",
+			"rival": "ARIZ"
+		}]
+	}]
+}
